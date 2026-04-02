@@ -1,0 +1,61 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: transparent; }
+    .grid-line { stroke: #30363d; stroke-width: 1; stroke-dasharray: 2 2; }
+    .axis-line { stroke: rgba(0, 255, 157, 0.2); stroke-width: 1; }
+    .label { font-family: 'SF Mono', monospace; fill: #8b949e; font-size: 10px; text-transform: uppercase; }
+    .value-area { fill: rgba(0, 255, 157, 0.2); stroke: #00ff9d; stroke-width: 2; filter: drop-shadow(0 0 5px #00ff9d); }
+    .point { fill: #0ff; }
+    
+    @keyframes pulse {
+      0% { r: 2; opacity: 1; }
+      100% { r: 6; opacity: 0; }
+    }
+    .sonar-ring { fill: none; stroke: #00ff9d; stroke-width: 0.5; animation: sonar 4s linear infinite; }
+    @keyframes sonar {
+      0% { r: 0; opacity: 1; }
+      100% { r: 180; opacity: 0; }
+    }
+  </style>
+
+  <!-- Radar Background Rings -->
+  <circle cx="200" cy="200" r="180" class="axis-line" />
+  <circle cx="200" cy="200" r="135" class="grid-line" />
+  <circle cx="200" cy="200" r="90" class="grid-line" />
+  <circle cx="200" cy="200" r="45" class="grid-line" />
+  
+  <circle cx="200" cy="200" r="1" class="sonar-ring" />
+
+  <!-- Axes -->
+  <!-- 1: Low-Level (Top) -->
+  <line x1="200" y1="200" x2="200" y2="20" class="axis-line" />
+  <text x="200" y="15" class="label" text-anchor="middle">Low-Level (Wasm/C++)</text>
+  
+  <!-- 2: Frontend (Right-Top) -->
+  <line x1="200" y1="200" x2="371" y2="145" class="axis-line" />
+  <text x="375" y="145" class="label" text-anchor="start">Frontend Arch</text>
+  
+  <!-- 3: Intelligence (Right-Bottom) -->
+  <line x1="200" y1="200" x2="306" y2="346" class="axis-line" />
+  <text x="310" y="355" class="label" text-anchor="start">AI &amp; Data</text>
+  
+  <!-- 4: DevOps (Left-Bottom) -->
+  <line x1="200" y1="200" x2="94" y2="346" class="axis-line" />
+  <text x="90" y="355" class="label" text-anchor="end">DevOps / QA</text>
+  
+  <!-- 5: Performance (Left-Top) -->
+  <line x1="200" y1="200" x2="29" y2="145" class="axis-line" />
+  <text x="25" y="145" class="label" text-anchor="end">Performance</text>
+
+  <!-- Data Area (Performance Sonar Values) -->
+  <!-- Low-Level: 95%, Frontend: 90%, AI: 75%, DevOps: 85%, Performance: 98% -->
+  <path d="M 200,30 L 354,150 L 280,310 L 110,325 L 35,145 Z" class="value-area" />
+  
+  <!-- Points -->
+  <circle cx="200" cy="30" r="3" class="point" />
+  <circle cx="354" cy="150" r="3" class="point" />
+  <circle cx="280" cy="310" r="3" class="point" />
+  <circle cx="110" cy="325" r="3" class="point" />
+  <circle cx="35" cy="145" r="3" class="point" />
+
+</svg>
