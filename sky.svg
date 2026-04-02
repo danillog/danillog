@@ -1,0 +1,30 @@
+<svg width="800" height="100" viewBox="0 0 800 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    /* Definição do fundo escuro */
+    .space-bg { fill: #0D1117; } /* Mesma cor do fundo Dark do GitHub */
+    
+    /* Classe base para estrelas */
+    .star { fill: white; opacity: 0; }
+
+    /* Animações de piscar com diferentes atrasos e durações */
+    .twinkle-1 { animation: twinkle 4s ease-in-out infinite; }
+    .twinkle-2 { animation: twinkle 5s ease-in-out 1s infinite; }
+    .twinkle-3 { animation: twinkle 6s ease-in-out 2s infinite; }
+
+    @keyframes twinkle {
+      0%, 100% { opacity: 0; transform: scale(0.5); }
+      50% { opacity: 1; transform: scale(1); }
+    }
+  </style>
+  
+  <rect width="800" height="100" class="space-bg" />
+
+  <circle cx="50" cy="20" r="1" class="star twinkle-1" />
+  <circle cx="150" cy="60" r="1.5" class="star twinkle-2" />
+  <circle cx="250" cy="30" r="1" class="star twinkle-3" />
+  <circle cx="350" cy="80" r="1.2" class="star twinkle-1" />
+  <circle cx="450" cy="50" r="1" class="star twinkle-2" />
+  <circle cx="550" cy="20" r="1.5" class="star twinkle-3" />
+  <circle cx="650" cy="70" r="1.2" class="star twinkle-1" />
+  <circle cx="750" cy="40" r="1" class="star twinkle-2" />
+</svg>
