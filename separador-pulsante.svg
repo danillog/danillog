@@ -1,0 +1,25 @@
+<svg width="800" height="2" viewBox="0 0 800 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    /* Definição da animação isolada e segura dentro do SVG */
+    .pulse-line {
+      stroke: #36BCF7; /* Cor ciano técnica */
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-dasharray: 800;
+      stroke-dashoffset: 800;
+      /* Animação: desenha a linha e depois faz pulsar a opacidade */
+      animation: drawLine 2s ease-out forwards, pulseOpacity 4s ease-in-out 2s infinite;
+    }
+
+    @keyframes drawLine {
+      to { stroke-dashoffset: 0; }
+    }
+
+    @keyframes pulseOpacity {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+  </style>
+  
+  <line x1="0" y1="1" x2="800" y2="1" class="pulse-line" />
+</svg>
