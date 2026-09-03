@@ -1,16 +1,14 @@
 <div align="center">
-  <img src="hero-banner.svg" alt="Danillo Gomes R&D Banner" width="100%" />
+  <img src="hero-banner.svg" alt="Danillo Gomes — Software Engineer, R&D" width="100%" />
 </div>
 
 <div align="center">
-  <p><b>Software Engineer | Research & Development</b></p>
-  <p><i>Frontend architecture, WebAssembly, and making AI run where it "shouldn't" — low-end hardware, browsers, the edge.</i></p>
   <p>
     <a href="https://linkedin.com/in/danillootavio" target="_blank">
-      <img src="https://img.shields.io/badge/LINKEDIN-0D1117?style=for-the-badge&logo=linkedin&logoColor=00ff9d&labelColor=1a1b26" alt="LinkedIn" />
+      <img src="https://img.shields.io/badge/LINKEDIN-0B0B0B?style=for-the-badge&logo=linkedin&logoColor=FF7A29&labelColor=0B0B0B" alt="LinkedIn" />
     </a>
     <a href="https://danillogomes.com/" target="_blank">
-      <img src="https://img.shields.io/badge/PORTFOLIO-0D1117?style=for-the-badge&logo=google-chrome&logoColor=0ff&labelColor=1a1b26" alt="Portfolio" />
+      <img src="https://img.shields.io/badge/PORTFOLIO-0B0B0B?style=for-the-badge&logo=google-chrome&logoColor=F2C230&labelColor=0B0B0B" alt="Portfolio" />
     </a>
   </p>
 </div>
@@ -38,6 +36,22 @@ T-Shaped engineer, 8+ years in — the last 4 spent mostly obsessed with getting
       </td>
     </tr>
   </table>
+</div>
+
+---
+
+### My Expertise At A Glance
+
+<div align="center">
+
+![React & TypeScript](https://img.shields.io/badge/REACT_%26_TYPESCRIPT-0B0B0B?style=for-the-badge&labelColor=0B0B0B&color=0B0B0B)
+![Python & AI/ML](https://img.shields.io/badge/PYTHON_%26_AI%2FML-0B0B0B?style=for-the-badge&labelColor=0B0B0B&color=0B0B0B)
+![WebAssembly & Edge](https://img.shields.io/badge/WEBASSEMBLY_%26_EDGE-0B0B0B?style=for-the-badge&labelColor=0B0B0B&color=0B0B0B)
+
+![LLM & RAG](https://img.shields.io/badge/LLM_%26_RAG-0B0B0B?style=for-the-badge&labelColor=0B0B0B&color=0B0B0B)
+![Computer Vision](https://img.shields.io/badge/COMPUTER_VISION-0B0B0B?style=for-the-badge&labelColor=0B0B0B&color=0B0B0B)
+![CI/CD & DevOps](https://img.shields.io/badge/CI%2FCD_%26_DEVOPS-0B0B0B?style=for-the-badge&labelColor=0B0B0B&color=0B0B0B)
+
 </div>
 
 ---
@@ -73,5 +87,5 @@ Wanted financial forecasting that works offline and where I, the developer, genu
 <div align="center">
   <img src="pulse-monitor.svg" width="100%" />
   <br />
-  <img src="https://github-readme-stats.vercel.app/api?username=danillog&show_icons=true&theme=radical&hide_border=true&count_private=true&bg_color=0D1117&title_color=00ff9d&icon_color=0ff&text_color=a9b1d6" />
+  <img src="https://github-readme-stats.vercel.app/api?username=danillog&show_icons=true&theme=radical&hide_border=true&count_private=true&bg_color=0B0B0B&title_color=FF7A29&icon_color=F2C230&text_color=a9b1d6" />
 </div>
