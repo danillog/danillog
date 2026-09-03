@@ -4,7 +4,7 @@
 
 <div align="center">
   <p>
-    <a href="https://linkedin.com/in/danillootavio" target="_blank">
+    <a href="https://www.linkedin.com/in/danillogomes/" target="_blank">
       <img src="https://img.shields.io/badge/LINKEDIN-FF7A29?style=for-the-badge&logo=linkedin&logoColor=0B0B0B&labelColor=FF7A29" alt="LinkedIn" />
     </a>
     <a href="https://danillogomes.com/" target="_blank">
