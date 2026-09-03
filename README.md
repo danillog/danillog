@@ -3,9 +3,8 @@
 </div>
 
 <div align="center">
-  <p><b>Software Engineer | Research & Development (R&D)</b></p>
-  <p><i>Specializing in Frontend Architecture, WebAssembly & High-Performance Computing</i></p>
-
+  <p><b>Software Engineer | Research & Development</b></p>
+  <p><i>Frontend architecture, WebAssembly, and making AI run where it "shouldn't" — low-end hardware, browsers, the edge.</i></p>
   <p>
     <a href="https://linkedin.com/in/danillootavio" target="_blank">
       <img src="https://img.shields.io/badge/LINKEDIN-0D1117?style=for-the-badge&logo=linkedin&logoColor=00ff9d&labelColor=1a1b26" alt="LinkedIn" />
@@ -18,9 +17,9 @@
 
 ---
 
-### // EXECUTIVE_SUMMARY
+### About
 
-T-Shaped Software Engineer with **6+ years of experience**. I bridge the gap between heavy computational logic and modern browser environments. Currently collaborating with **HP Inc.** on high-impact R&D initiatives, transforming server-side bottlenecks into fluid, client-side experiences.
+T-Shaped engineer, 8+ years in — the last 4 spent mostly obsessed with getting AI and heavy computation to run client-side instead of on a server bill. I currently work on R&D initiatives with **HP Inc.** (via Conceptu), turning things that "should" need a backend into something that just runs in your browser.
 
 <div align="center">
   <table width="100%">
@@ -29,12 +28,12 @@ T-Shaped Software Engineer with **6+ years of experience**. I bridge the gap bet
         <img src="performance-sonar.svg" width="320px" alt="Performance Sonar Chart" />
       </td>
       <td width="50%" valign="middle">
-        <h4>// STRATEGIC_ROI</h4>
+        <h4>A few numbers that actually mean something</h4>
         <ul>
-          <li><b>Cost Reduction:</b> Shifted 40% of cloud processing to the client using WASM/C++.</li>
-          <li><b>Efficiency:</b> Saved 60min/sprint by optimizing CI/CD workflows.</li>
-          <li><b>Quality:</b> Enforced 80% coverage threshold for R&D stability.</li>
-          <li><b>Stability:</b> Resolved critical memory leaks for <2GB RAM hardware.</li>
+          <li>Moved ~40% of a cloud processing workload to the client using WASM/C++ — cloud bill went down, latency too.</li>
+          <li>Saved ~60min of CI/CD time per sprint by catching regressions locally instead of in the pipeline.</li>
+          <li>Hold an 80% test coverage bar on R&D work that has to stay stable under scrutiny.</li>
+          <li>Chased down memory leaks on <2GB RAM Android devices — the unglamorous kind of debugging that actually matters to real users.</li>
         </ul>
       </td>
     </tr>
@@ -43,7 +42,7 @@ T-Shaped Software Engineer with **6+ years of experience**. I bridge the gap bet
 
 ---
 
-### // SYSTEM_ARCHITECTURE_BLUEPRINT
+### Architecture I gravitate toward
 
 <div align="center">
   <img src="skill-constellation.svg" alt="Architecture Blueprint" width="100%" />
@@ -51,29 +50,23 @@ T-Shaped Software Engineer with **6+ years of experience**. I bridge the gap bet
 
 ---
 
-### // CASE_STUDIES [Problem-Solution-Impact]
+### Things I've built
 
-#### **1. RPG Code | Browser-Based CS Platform**
+**RPG Code — a browser-based coding RPG for learning Python/TDD**
+Standard JS interpreters choke on real-time TDD validation and lock up the UI during heavy Python loops. I built a non-blocking execution engine with Pyodide running inside isolated Web Workers, plus a custom memory lifecycle in React 19 so restarting the worker 100+ times in a row doesn't leak memory. Result: no UI jank, no crashes, even under load.
+**[→ danillogomes.com/code-rpg](https://danillogomes.com/code-rpg/)**
 
-- **PROBLEM:** Standard JS interpreters were too slow for real-time TDD validation and blocked the UI during complex Python loops.
-- **SOLUTION:** Engineered a non-blocking execution engine using **Pyodide** inside isolated **Web Workers**. Implemented a custom memory lifecycle management system in React 19.
-- **IMPACT:** Zero UI jank during high-load executions and flawless memory stability during 100+ consecutive code restarts.
-- **[View Project](https://danillogomes.com/code-rpg/)**
-
-#### **2. FinFlow | Zero-Knowledge Financial Tool**
-
-- **PROBLEM:** User privacy concerns and the need for complex, offline-ready financial forecasting.
-- **SOLUTION:** Architected a **Zero-Knowledge PWA** with client-side encryption. Developed the "Snowball" algorithm in optimized JS for instant projections.
-- **IMPACT:** 100% data sovereignty for users and native-app performance on an offline-first web structure.
-- **[View Project](https://controlebolso.com/)**
+**FinFlow — a zero-knowledge personal finance PWA**
+Wanted financial forecasting that works offline and where I, the developer, genuinely can't see anyone's data. Built as a zero-knowledge PWA with client-side encryption, plus a custom "Snowball" algorithm for instant credit-card payoff projections.
+**[→ controlebolso.com](https://controlebolso.com/)**
 
 ---
 
-### // CURRENT_RESEARCH [0xAD]
+### What I'm poking at right now
 
-- **WebGPU Acceleration:** Porting CV models from ONNX Runtime to WebGPU for 5x faster inference.
-- **SIMD in WASM:** Optimizing matrix multiplications for large-scale financial projections.
-- **React 19 Transitions:** Leveraging `useActionState` for seamless low-latency UI updates.
+- **WebGPU**: porting CV models off ONNX Runtime and onto WebGPU — aiming for ~5x faster inference in-browser.
+- **SIMD in WASM**: speeding up matrix multiplication for large financial projections.
+- **React 19 transitions**: `useActionState` for UI updates that don't feel laggy even on weak hardware.
 
 ---
 
